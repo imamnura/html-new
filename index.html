@@ -1,0 +1,39 @@
+<html>
+<html lang="en">
+<head>
+</head>
+<body>
+  <div id="html1">
+    <details>
+      <summary>Title Accordion</summary>
+      Isi dari accordion
+    </details>
+  </div>
+  <div id="html2" style="margin-top:10px">
+    <button popovertarget="target">popover</button>
+    <div id="target" popover>Isi dari popover</div>
+  </div>
+  <div id="html3" style="margin-top:10px" inert>
+    <details>
+      <summary>Title Accordion</summary>
+      Isi dari accordion
+    </details>
+  </div>
+  <div id="html4" style="margin-top:10px">
+    <input type="color" name="warna" id="warna">
+    <label for="warna">pilih warna</label>
+  </div>
+  <div id="html5" style="margin-top:10px">
+    <label for="warna">pilih warna</label>
+    <input list="list-warna" id="warna">
+    <datalist id="list-warna">
+      <option value="coklat">coklat</option>
+      <option value="merah">merah</option>
+    </datalist>
+  </div>
+  <div id="html6" style="margin-top:10px">
+    <label for="foto">ambil foto</label>
+    <input type="file" name="foto" id="foto" accept="image/" capture="user/environment">
+  </div>
+</body>
+</html>
